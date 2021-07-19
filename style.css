@@ -138,8 +138,8 @@ input[type='email'] {
 
 .email--container form input[type='submit']:hover {
   cursor: pointer;
-  background-color: #0e022e;
-  box-shadow: 5px 5px 50px #0e022e;
+  background-color: #5a2dd8;
+  box-shadow: 5px 5px 50px #4a23b5;
 }
 
 /*------------------------Produtos------------------------*/
