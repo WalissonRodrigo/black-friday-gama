@@ -11,7 +11,8 @@ form.addEventListener('submit', e => {
   let convertData = JSON.stringify(data)
 
   localStorage.setItem('lead', convertData)
-
+  
   document.getElementById('nome').value = ''
   document.getElementById('email').value = ''
+  alert("Parabéns! Em breve iremos enviar novidades para você no seu email.")
 })
