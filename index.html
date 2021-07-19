@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Friday Gama Academy</title>
+    <meta name="author" content="Walisson Rodrigo" />
+    <meta name="keywords" content="Hiring Coders, Gama Academy, Walisson Rodrigo, WR System, Ecommerce, Loja, Black Friday, Estudos, VanillaJS." />
+    <meta name="description" content="Black Friday do Programa Hiring Coders da Gama Academy" />
+    <link rel="icon" type="image/svg+xml" href="/imagem/fav-icon.png">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <nav class="navigation">
+          <h1 class="store--name"><a href="index.html">Black Friday Gama Academy</a></h1>
+
+          <div class="bar--search">
+            <input
+              type="text"
+              name="pesquisa"
+              placeholder="Pesquise por um produto"
+            />
+            <button><i class="fab fa-sistrix"></i></button>
+          </div>
+
+          <ul class="nav--list">
+            <li class="nav--offers">
+              <a href="#products"><i class="fas fa-sun">Ofertas do dia!</i></a>
+            </li>
+            <li class="nav--categories">
+              <a href="#"><i class="fas fa-align-justify">Categorias</i></a>
+            </li>
+            <li class="nav--cart">
+              <a href="#"><i class="fas fa-cart-plus">Carrinho</i></a>
+            </li>
+            <li class="nav--favorites">
+              <a href="#"><i class="far fa-heart">Favoritos</i></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      
+
+      <section class="background-friday">
+        <div class="friday--container">
+          <h1>
+            Black Friday
+            <img src="imagem/sell_black_friday.png" height="120" alt="Imagem do produto" />
+          </h1>
+        </div>
+      </section>
+
+      <section id="products" class="products">
+        <div class="card--container">
+          <div class="card">
+            <img class="x1" src="imagem/mistery_box.png" alt="Imagem do produto" />
+            <h3 class="product--name">Mistery Box 01</h3>
+            <p class="description">
+              Receba uma caixa misteriosa com conteúdos aleatórios contando apenas com sua sorte.
+            </p>
+            <h5 class="price">Preço do produto: R$100,00</h5>
+            <h4 class="product--sale">Oferta: R$50,00</h4>
+          </div>
+
+          <div class="card">
+            <img class="x2" src="imagem/mistery_box.png" alt="Imagem do produto" />
+            <h3 class="product--name">Mistery Box 02</h3>
+            <p class="description">
+              Receba uma caixa misteriosa com conteúdos aleatórios contando apenas com sua sorte multiplicada por 2x mais valor nos produtos.
+            </p>
+            <h5 class="price">Preço do produto: R$200,00</h5>
+            <h4 class="product--sale">Oferta: R$100,00</h4>
+          </div>
+
+          <div class="card">
+            <img class="x3" src="imagem/mistery_box.png" alt="Imagem do produto" />
+            <h3 class="product--name">Mistery Box 03</h3>
+            <p class="description">
+              Receba uma caixa misteriosa com conteúdos aleatórios contando apenas com sua sorte multiplicada por 3x mais valor nos produtos.
+            </p>
+            <h5 class="price">Preço do produto: R$300,00</h5>
+            <h4 class="product--sale">Oferta: R$200,00</h4>
+          </div>
+
+          <div class="card">
+            <img class="x4" src="imagem/mistery_box.png" alt="Imagem do produto" />
+            <h3 class="product--name">Mistery Box 04</h3>
+            <p class="description">
+              Receba uma caixa misteriosa com conteúdos aleatórios contando apenas com sua sorte multiplicada por 4x mais valor nos produtos.
+            </p>
+            <h5 class="price">Preço do produto: R$400,00</h5>
+            <h4 class="product--sale">Oferta: R$300,00</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-container">
+        <div class="email--container" id="container">
+          <p>Receba nossas ofertas</p>
+          <form action="" id="form">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="nome"
+              placeholder="Digite seu nome"
+              required
+            />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="name-footer">
+            <h3>Desafio #1 Hiring Coders by <a href="https://linkedin.com/in/walissonrodrigo" target="_blank"> Walisson Rodrigo</a></h3>
+          </div>
+        </div>
+      </footer>
+    </main>
+    
+  </body>
+  <script src="script.js"></script>
+</html>
